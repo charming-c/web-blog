@@ -1,0 +1,19 @@
+body{
+    background-image: url("../images/background.jpeg");
+    background-size: auto 120%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-origin: border-box; 
+    background-clip: border-box;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+.container{
+    margin: auto;
+    margin-top: 80px;
+    width: 30%;
+    height: 50%;
+}
