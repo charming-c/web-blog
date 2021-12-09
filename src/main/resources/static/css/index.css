@@ -1,0 +1,110 @@
+.bkg{
+    background-color:azure;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.content{
+    flex: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.container{
+    width: 80%;
+    margin-right:10%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+
+    /* background-color: aqua; */
+}
+
+.info{
+    width: 15%;
+    height: 60%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 5px;
+}
+
+.icon{
+    height: 40%;
+    margin: 5% auto;
+    width: 60%;
+    border-radius:50%;
+}
+
+.nickname{
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#limitText{
+    font-size: 12px;
+    margin: 1px auto;
+    color: rgba(var(--dsw-label-tertiary-rgba));
+}
+
+#describe{
+    font-size: 12px;
+    margin: 0 auto;
+    color: #999;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+  }
+  
+  li span {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li span:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .active {
+    background-color: #555;
+    color: white;
+  }
+
+  .unshow{
+    display: none;
+  }

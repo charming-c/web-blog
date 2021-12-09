@@ -36,7 +36,7 @@
                 <div class="ui error mini message"></div>
     
             </form>
-            <div id="messsage" class="ui mini negative message" th:text="${message}">注意密码不要泄漏</div>
+            <div id="hcl" class="ui mini negative message" th:text="${message}"></div>
 
         </div>
         
@@ -67,11 +67,9 @@
     </script>
 
     <script>
-        let tip = document.getElementById('message');
-        
-            // tip.style.display = "none";
-            console.log(tip);
-        
+        let tip = document.getElementById('hcl');
+            if(!tip.textContent)
+                tip.style.display = "none";        
 
     </script>
 

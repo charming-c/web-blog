@@ -1,18 +1,111 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>博客首页</title>
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
-        <script src="https://unpkg.com/vue@next"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客首页</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/index.css" th:href="@{/css/index.css}">
+    <!-- <script src="https://unpkg.com/vue@next"></script> -->
 
-    <body method="post" th:action="@{/index}">
-        <h1>前台首页</h1>
-        <div th:text="${blogCount}">blogCount</div>
-        <div th:text="${typeCount}">blogCount</div>
-        <div th:text="${userInfo}">blogCount</div>
-    </body>
+
+</head>
+
+<body class="bkg" method="get" th:action="@{/index}">
+
+    <div class="info">
+        <div class="user">
+            <img class="icon" th:src="${userInfo.avatar}">
+            <div class="nickname" th:text="${userInfo.nickname}"></div>
+            <div id="describe">邮箱:</div>
+
+            <div class="joinTime" id="limitText" th:text="${userInfo.email}"></div>
+            <div id="describe">更新时间:</div>
+
+            <div class="updateTime" id="limitText" th:text="${userInfo.updateTime}"></div>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a><span class="active" id="firstPage" onclick="clickable(1)">首页</span></a></li>
+                <li><a></a><span class="hidden" id="blog" onclick="clickable(2)"
+                        th:text="'全部博客(' + ${blogCount} + ')'"></span></li>
+                <li><a></a><span class="hidden" id="type" onclick="clickable(3)"
+                        th:text="'分类(' + ${typeCount} + ')'"></span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div id="recommendPage" class="show">
+                <h1>1</h1>
+            </div>
+            <div id="blogPage" class="unshow">
+                <h1>2</h1>
+            </div>
+            <div id="typePage" class="unshow">
+                <h1>3</h1>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        function clickable(element) {
+            if (element == 1) {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "active");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "hidden");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","show");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","unshow");
+            }
+            else if (element == 2) {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "active");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "hidden");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","show");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","unshow");
+            }
+            else {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "active");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","show");
+            }
+
+    
+        }
+
+
+    </script>
+</body>
+
 </html>

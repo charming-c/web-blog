@@ -1,6 +1,7 @@
 package com.charming.blog.controller;
 
 import com.charming.blog.queryvo.FirstPageBlog;
+import com.charming.blog.queryvo.UserInfo;
 import com.charming.blog.service.FirstPageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -18,15 +19,21 @@ public class IndexController {
     @Autowired
     FirstPageService firstPageService;
 
-    @GetMapping()
+    @GetMapping
     public String loadPage(Model model, RedirectAttributes attributes) {
         int blogCount = firstPageService.getBlogCount();
         int typeCount = firstPageService.getTypeCount();
-        String userInfo = firstPageService.getUserInfo().toString();
-        List<FirstPageBlog> list = firstPageService.getFirstPageBlog();
+        UserInfo userInfo = firstPageService.getUserInfo();
+        List<FirstPageBlog> firstPageBlogList = firstPageService.getFirstPageBlog();
         model.addAttribute("blogCount",blogCount);
         model.addAttribute("typeCount",typeCount);
-        model.addAttribute("userInfo",userInfo);
+        model.addAttribute(userInfo);
+        model.addAttribute("firstPageBlogList",firstPageBlogList);
+        return "index";
+    }
+
+    @GetMapping("index")
+    public String loaded(){
         return "index";
     }
 }
