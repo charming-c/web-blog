@@ -1,0 +1,1067 @@
+2021-12-10 08:18:31.388  INFO 31069 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 31069 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-10 08:18:31.391  INFO 31069 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-10 08:18:33.869  INFO 31069 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 3.074 seconds (JVM running for 3.912)
+2021-12-10 08:18:37.590  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:18:38.088  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 08:18:38.337 ERROR 31069 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "userInfo.updateTime.toLocalString()" (template: "index" - line 26, col 52)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "userInfo.updateTime.toLocalString()" (template: "index" - line 26, col 52)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1004E: Method call: Method toLocalString() cannot be found on type java.util.Date
+	at org.springframework.expression.spel.ast.MethodReference.findAccessorForMethod(MethodReference.java:226)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:135)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:55)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:387)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 69 common frames omitted
+
+2021-12-10 08:18:38.340 ERROR 31069 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1004E: Method call: Method toLocalString() cannot be found on type java.util.Date
+	at org.springframework.expression.spel.ast.MethodReference.findAccessorForMethod(MethodReference.java:226)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:135)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:55)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:387)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-12-10 08:19:13.374  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:19:13.413  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 08:24:11.914  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:24:12.008  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 08:25:11.453  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:25:11.505  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 08:25:35.278  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:25:35.366  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 08:26:16.761  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:26:16.770  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 08:26:48.665  INFO 31069 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:26:48.674  INFO 31069 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 08:27:46.073  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:27:46.125  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 08:43:03.199  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:43:03.246  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 08:43:45.804  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:43:45.892  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 08:44:32.859  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 08:44:32.865  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:01:57.745  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:01:57.803  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:02:09.021  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:02:09.112  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:05:59.203  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:05:59.252  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:06:16.661  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:06:16.706  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:06:41.666  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:06:41.759  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:07:15.320  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:07:15.369  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:15:31.224  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:15:31.279  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:16:18.571  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:16:18.616  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:16:27.529  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:16:27.576  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:17:04.995  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:17:05.002  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:17:12.550  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:17:12.560  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:18:15.088  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:18:15.150  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:18:56.308  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:18:56.372  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:19:16.699  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:19:16.746  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:19:49.898  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:19:49.949  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:30:52.482  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:30:52.530  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:32:19.824  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 09:32:19.870  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 09:32:37.608  WARN 31069 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s862ms), soft-evicting connections from pool.
+2021-12-10 09:51:23.547  WARN 31069 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m45s894ms).
+2021-12-10 09:54:49.427  WARN 31069 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m25s880ms).
+2021-12-10 09:56:18.367  WARN 31069 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s940ms).
+2021-12-10 13:48:52.669  WARN 31069 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m2s182ms).
+2021-12-10 14:13:55.195  WARN 31069 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m2s536ms).
+2021-12-10 14:24:13.817  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:24:13.963  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:25:06.713  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:25:06.843  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:27:13.738  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:27:13.789  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:27:28.611  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:27:28.702  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:28:06.867  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:28:06.872  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:33:53.690  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:33:53.739  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:38:09.217  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:38:09.356  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:40:40.835  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:40:40.921  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:40:47.729  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:40:47.775  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:46:42.252  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:46:42.316  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:47:02.781  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:47:02.783  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:47:24.124  INFO 31069 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:47:24.168  INFO 31069 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:48:08.931  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:48:08.975  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:49:29.857  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:49:29.946  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 14:55:39.384  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 14:55:39.390  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:02:26.291  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:02:26.337  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:08:24.231  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:08:24.276  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:11:26.467  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:11:26.563  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:12:00.537  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:12:00.609  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:13:16.885  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:13:17.035  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:15:35.683  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:15:35.746  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:18:54.241  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:18:54.330  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:20:02.020  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:20:02.025  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:35:45.789  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:35:45.882  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:37:56.392  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:37:56.441  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:37:56.464 ERROR 31069 --- [http-nio-8080-exec-9] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-9] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]" - line 53, col 71)
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 53, col 71)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.attoparser.ParseException: (Line = 53, Column = 71) Malformed markup: Attribute "th:text" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:275)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+
+2021-12-10 15:37:56.484 ERROR 31069 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 53, col 71)] with root cause
+
+org.attoparser.ParseException: (Line = 53, Column = 71) Malformed markup: Attribute "th:text" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:275)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-12-10 15:38:30.136  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:38:30.183  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:38:30.187 ERROR 31069 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]" - line 50, col 25)
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 50, col 25)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.attoparser.ParseException: (Line = 50, Column = 25) Incomplete structure: "<div class="author" th:text="${blog.nickname}>
+                            charming
+                        </div>
+                        <div class="type" style="text-align: center;" th:text="${blog.typeName}">
+                            test
+                        </div>
+                    </div>
+                    <button class="btn">阅读全文 》</button>
+                    <hr>
+                </div>
+            </div>
+            <div id="blogPage" class="unshow">
+                <div>
+
+                </div>
+            </div>
+            <div id="typePage" class="unshow">
+                <div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        function clickable(element) {
+            if (element == 1) {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "active");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "hidden");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","show");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","unshow");
+            }
+            else if (element == 2) {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "active");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "hidden");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","show");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","unshow");
+            }
+            else {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "active");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","show");
+            }
+
+    
+        }
+
+
+    </script>
+</body>
+
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+
+2021-12-10 15:38:30.188 ERROR 31069 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 50, col 25)] with root cause
+
+org.attoparser.ParseException: (Line = 50, Column = 25) Incomplete structure: "<div class="author" th:text="${blog.nickname}>
+                            charming
+                        </div>
+                        <div class="type" style="text-align: center;" th:text="${blog.typeName}">
+                            test
+                        </div>
+                    </div>
+                    <button class="btn">阅读全文 》</button>
+                    <hr>
+                </div>
+            </div>
+            <div id="blogPage" class="unshow">
+                <div>
+
+                </div>
+            </div>
+            <div id="typePage" class="unshow">
+                <div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        function clickable(element) {
+            if (element == 1) {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "active");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "hidden");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","show");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","unshow");
+            }
+            else if (element == 2) {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "active");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "hidden");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","show");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","unshow");
+            }
+            else {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "active");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","show");
+            }
+
+    
+        }
+
+
+    </script>
+</body>
+
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-12-10 15:38:31.466  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:38:31.469  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:38:31.471 ERROR 31069 --- [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-2] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]" - line 50, col 25)
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 50, col 25)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.attoparser.ParseException: (Line = 50, Column = 25) Incomplete structure: "<div class="author" th:text="${blog.nickname}>
+                            charming
+                        </div>
+                        <div class="type" style="text-align: center;" th:text="${blog.typeName}">
+                            test
+                        </div>
+                    </div>
+                    <button class="btn">阅读全文 》</button>
+                    <hr>
+                </div>
+            </div>
+            <div id="blogPage" class="unshow">
+                <div>
+
+                </div>
+            </div>
+            <div id="typePage" class="unshow">
+                <div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        function clickable(element) {
+            if (element == 1) {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "active");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "hidden");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","show");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","unshow");
+            }
+            else if (element == 2) {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "active");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "hidden");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","show");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","unshow");
+            }
+            else {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "active");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","show");
+            }
+
+    
+        }
+
+
+    </script>
+</body>
+
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+
+2021-12-10 15:38:31.473 ERROR 31069 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 50, col 25)] with root cause
+
+org.attoparser.ParseException: (Line = 50, Column = 25) Incomplete structure: "<div class="author" th:text="${blog.nickname}>
+                            charming
+                        </div>
+                        <div class="type" style="text-align: center;" th:text="${blog.typeName}">
+                            test
+                        </div>
+                    </div>
+                    <button class="btn">阅读全文 》</button>
+                    <hr>
+                </div>
+            </div>
+            <div id="blogPage" class="unshow">
+                <div>
+
+                </div>
+            </div>
+            <div id="typePage" class="unshow">
+                <div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        function clickable(element) {
+            if (element == 1) {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "active");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "hidden");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","show");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","unshow");
+            }
+            else if (element == 2) {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "active");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "hidden");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","show");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","unshow");
+            }
+            else {
+                var ele = document.getElementById("firstPage");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("blog");
+                ele.setAttribute("class", "hidden");
+                ele = document.getElementById("type");
+                ele.setAttribute("class", "active");
+
+                ele = document.getElementById("recommendPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("blogPage");
+                ele.setAttribute("class","unshow");
+                ele = document.getElementById("typePage");
+                ele.setAttribute("class","show");
+            }
+
+    
+        }
+
+
+    </script>
+</body>
+
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-12-10 15:39:07.224  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:39:07.268  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:40:31.680  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:40:31.689  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:43:13.505  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:43:13.559  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:44:41.482  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:44:41.537  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:53:23.414  INFO 31069 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 31069 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-10 15:53:23.415  INFO 31069 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-10 15:53:24.288  INFO 31069 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 1.118 seconds (JVM running for 24640.088)
+2021-12-10 15:53:29.307  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:53:29.404  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 15:53:37.989  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 15:53:38.035  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 17:05:58.222  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h9m17s183ms).
+2021-12-10 17:30:12.407  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 17:30:12.797  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 17:37:24.521  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 17:37:24.852  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 17:38:25.546  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 17:38:25.600  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 17:40:25.125  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 17:40:25.256  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 17:41:40.324  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 17:41:40.413  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 17:43:34.174  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 17:43:34.224  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 18:06:46.124  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m47s608ms).
+2021-12-10 18:27:29.985  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m13s842ms).
+2021-12-10 18:43:56.705  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m56s709ms).
+2021-12-10 19:04:28.090  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m30s298ms).
+2021-12-10 19:04:56.607  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Retrograde clock change detected (housekeeper delta=29s598ms), soft-evicting connections from pool.
+2021-12-10 19:25:29.395  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m32s794ms).
+2021-12-10 19:46:29.601  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m30s188ms).
+2021-12-10 19:50:11.486  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m11s885ms).
+2021-12-10 19:52:33.095  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 19:52:33.215  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 19:52:59.418  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 19:52:59.554  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 19:53:08.411  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 19:53:08.458  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 19:53:39.241  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 19:53:39.248  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 19:59:45.467  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 19:59:45.553  INFO 31069 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 20:05:11.374  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Retrograde clock change detected (housekeeper delta=29s801ms), soft-evicting connections from pool.
+2021-12-10 20:11:55.735  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 20:11:55.849  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 20:12:38.523  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 20:12:38.536  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 20:16:16.691  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 20:16:16.812  INFO 31069 --- [http-nio-8080-exec-10] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 20:18:38.957  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 20:18:39.050  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 20:19:35.897  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 20:19:35.945  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 20:26:39.184  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 20:26:39.231  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 20:30:01.626  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 20:30:01.677  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 20:58:44.433  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=19m59s605ms).
+2021-12-10 20:59:57.557  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 20:59:57.620  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:02:10.116  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:02:10.204  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:02:29.044  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:02:29.100  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:20:54.157  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:20:54.206  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:24:42.779  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:24:42.921  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:25:46.485  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:25:46.531  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:29:36.996  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:29:37.127  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:37:44.857  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:37:44.950  INFO 31069 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:38:28.385  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:38:28.437  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:38:48.557  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:38:48.646  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:39:08.932  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:39:08.988  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:40:27.347  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:40:27.398  INFO 31069 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:43:08.658  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:43:08.708  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 21:43:10.626  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 21:43:10.629  INFO 31069 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 22:20:32.978  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 22:20:33.558  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 22:21:43.086  INFO 31069 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 22:21:43.173  INFO 31069 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 22:23:25.776  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 22:23:25.850  INFO 31069 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 22:24:33.658  INFO 31069 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 22:24:33.716  INFO 31069 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 22:25:41.124  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 22:25:41.214  INFO 31069 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 22:30:40.616  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 22:30:40.666  INFO 31069 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 22:34:24.440  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-10 22:34:24.493  INFO 31069 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-10 22:42:44.802  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Retrograde clock change detected (housekeeper delta=29s867ms), soft-evicting connections from pool.
+2021-12-10 23:13:36.938  WARN 31069 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=30m22s108ms).

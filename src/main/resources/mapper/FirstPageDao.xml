@@ -19,6 +19,14 @@
         where b.type_id = t.id and  u.id = b.user_id and b.recommend = 1;
     </select>
 
+    <select id="getBlogTotal" resultMap="firstPageBlog">
+        select b.id,b.title,b.update_time,b.description,
+        t.name ,
+        u.nickname, u.avatar
+        from blog.t_blog b, blog.t_type t,blog.t_user u
+        where b.type_id = t.id and  u.id = b.user_id;
+    </select>
+
     <select id="getBlogCount" resultType="Integer">
         select count(*) from blog.t_blog
     </select>
@@ -40,6 +48,18 @@
         select id,update_time,create_time,email,nickname,avatar
         from blog.t_user
         where id = 2;
+    </select>
+    
+    <resultMap id="TypeInfo" type="com.charming.blog.queryvo.TypeInfo">
+        <result property="typeName" column="name"/>
+        <result property="count" column="number"/>
+    </resultMap>
+    
+    <select id="getTypeList" resultMap="TypeInfo">
+        select t.name ,count(b.id) as number
+        from blog.t_type t, blog.t_blog b
+        where t.id = b.type_id
+        group by b.type_id
     </select>
 
 </mapper>

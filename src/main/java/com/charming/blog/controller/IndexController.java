@@ -1,6 +1,8 @@
 package com.charming.blog.controller;
 
+import com.charming.blog.entity.Type;
 import com.charming.blog.queryvo.FirstPageBlog;
+import com.charming.blog.queryvo.TypeInfo;
 import com.charming.blog.queryvo.UserInfo;
 import com.charming.blog.service.FirstPageService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,10 +27,14 @@ public class IndexController {
         int typeCount = firstPageService.getTypeCount();
         UserInfo userInfo = firstPageService.getUserInfo();
         List<FirstPageBlog> firstPageBlogList = firstPageService.getFirstPageBlog();
+        List<FirstPageBlog> blogTotal = firstPageService.getBlogTotal();
+        List<TypeInfo> typeInfoList = firstPageService.getTypeList();
         model.addAttribute("blogCount",blogCount);
         model.addAttribute("typeCount",typeCount);
         model.addAttribute(userInfo);
         model.addAttribute("firstPageBlogList",firstPageBlogList);
+        model.addAttribute("blogTotal",blogTotal);
+        model.addAttribute("typeList",typeInfoList);
         return "index";
     }
 

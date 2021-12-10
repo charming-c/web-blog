@@ -2,6 +2,7 @@ package com.charming.blog.service.Impl;
 
 import com.charming.blog.dao.FirstPageDao;
 import com.charming.blog.queryvo.FirstPageBlog;
+import com.charming.blog.queryvo.TypeInfo;
 import com.charming.blog.queryvo.UserInfo;
 import com.charming.blog.service.FirstPageService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,11 @@ import java.util.List;
 public class FirstPageServiceImpl implements FirstPageService {
     @Autowired
     FirstPageDao firstPageDao;
+
+    @Override
+    public List<FirstPageBlog> getBlogTotal() {
+        return firstPageDao.getBlogTotal();
+    }
 
     @Override
     public List<FirstPageBlog> getFirstPageBlog() {
@@ -32,5 +38,10 @@ public class FirstPageServiceImpl implements FirstPageService {
     @Override
     public UserInfo getUserInfo() {
         return firstPageDao.getUserInfo();
+    }
+
+    @Override
+    public List<TypeInfo> getTypeList() {
+        return firstPageDao.getTypeList();
     }
 }

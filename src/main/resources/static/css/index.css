@@ -7,6 +7,7 @@
 
 
 .content{
+    width: 100%;
     flex: auto;
     margin-left: 15px;
     margin-top: 5px;
@@ -108,3 +109,115 @@ ul {
   .unshow{
     display: none;
   }
+
+  .show{
+      display: flex;
+      flex-direction: column;
+  }
+  div#recommendBlog{
+    padding: 20px;
+    height: 50%;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* border-style: solid; */
+    margin: 5px 10%;
+    /* border-radius: 10px; */
+    /* border-width: 2px; */
+    /* border-color: #555;*/
+  }
+
+  .introduction{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #777;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  .tag{
+      display: flex;
+      flex-direction: row;
+  }
+
+  .author {
+    /* border-width: 0.5px;  */
+    /* border-color: #555; */
+    /* border-style: solid; */
+    /* border-radius: 17px; */
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 15px;
+    /* color: white; */
+    /* background: #555; */
+    min-width: 50px;
+}
+.type{
+    
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 15px;
+    min-width: 50px;
+}
+
+.btn {
+    border-radius: 15px;
+    margin: auto;
+    min-width: 100px;
+    background: var(--btn-default-bg);
+    border: 2px solid #555;
+    border-radius: 2px;
+    color: #555;
+    display: inline-block;
+    font-size: 0.875em;
+    line-height: 2;
+    padding: 0 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #555;
+    color: white;
+}
+
+hr{
+    width: 100%;
+    position: relative;
+    margin: 1rem auto;
+    border: 2px dashed #666;
+    background: #fff;
+    height: 0;
+    overflow: visible;
+    display: block;
+
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+
+}
+
+.updateTime{
+    padding: 5px;
+    margin-top: 5px;
+    min-width: 50px;
+}
+
+.wordCloud{
+    margin-top: 25px;
+}
+canvas#canvas {
+    margin-top: 10px;
+}
