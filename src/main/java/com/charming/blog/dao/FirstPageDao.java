@@ -1,9 +1,11 @@
 package com.charming.blog.dao;
 
+import com.charming.blog.queryvo.DetailBlog;
 import com.charming.blog.queryvo.FirstPageBlog;
 import com.charming.blog.queryvo.TypeInfo;
 import com.charming.blog.queryvo.UserInfo;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -23,5 +25,7 @@ public interface FirstPageDao {
     UserInfo getUserInfo();
 
     List<TypeInfo> getTypeList();
+
+    DetailBlog getDetailBlog(@Param("id")long id);
 
 }

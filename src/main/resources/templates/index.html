@@ -69,7 +69,8 @@
                         </div>
 
                     </div>
-                    <button class="btn">阅读全文 》</button>
+                    <button class="btn" th:data-name="${blog.id}" onclick="detailBlog(this.getAttribute('data-name'))"
+                        type="button">阅读全文 》</button>
                     <hr>
                 </div>
             </div>
@@ -99,7 +100,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="btn">阅读全文 》</button>
+                        <button class="ui follow button" action="detail.html" th:action="@{/detail/{id}}" data-id="${blog.id}">阅读全文 》</button>
                         <hr>
                     </div>
                 </div>
@@ -114,8 +115,15 @@
 
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
 
     <script type="text/javascript" th:inline="javascript">
+    
+        $('.ui.follow.button')
+            .api()
+            ;
         function clickable(element) {
             if (element == 1) {
                 var ele = document.getElementById("firstPage");
@@ -182,7 +190,7 @@
             "weightFactor": 10, // number to multiply for size of each word in the list
             "fontWeight": 'normal', // 'normal', 'bold' or a callback
             "fontFamily": 'Times, serif', // font to use
-            "color": 'random-light', // 'random-dark' or 'random-light'
+            "color": 'random-dark', // 'random-dark' or 'random-light'
             "rotateRatio": 1 // probability for the word to rotate. 1 means always rotate
         });
         var canvas = document.getElementById('canvas');

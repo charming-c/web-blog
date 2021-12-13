@@ -61,5 +61,24 @@
         where t.id = b.type_id
         group by b.type_id
     </select>
+    
+    <resultMap id="DetailBlog" type="com.charming.blog.queryvo.DetailBlog">
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="nickname" column="nickname"/>
+        <result property="avatar" column="avatar"/>
+        <result property="typeName" column="name"/>
+    </resultMap>
+
+    <select id="getDetailBlog" resultMap="DetailBlog">
+        select b.id,b.title,b.content,b.content,b.create_time,b.update_time,
+            u.avatar,u.nickname,
+            t.name
+        from blog.t_blog b, blog.t_user u, blog.t_type t
+        where b.user_id = u.id and b.type_id = t.id and b.id = #{id}
+    </select>
 
 </mapper>

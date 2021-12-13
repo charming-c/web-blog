@@ -1,6 +1,7 @@
 package com.charming.blog.service.Impl;
 
 import com.charming.blog.dao.FirstPageDao;
+import com.charming.blog.queryvo.DetailBlog;
 import com.charming.blog.queryvo.FirstPageBlog;
 import com.charming.blog.queryvo.TypeInfo;
 import com.charming.blog.queryvo.UserInfo;
@@ -43,5 +44,10 @@ public class FirstPageServiceImpl implements FirstPageService {
     @Override
     public List<TypeInfo> getTypeList() {
         return firstPageDao.getTypeList();
+    }
+
+    @Override
+    public DetailBlog getDetailBlog(long id) {
+        return firstPageDao.getDetailBlog(id);
     }
 }

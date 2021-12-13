@@ -1,5 +1,6 @@
 package com.charming.blog.service;
 
+import com.charming.blog.queryvo.DetailBlog;
 import com.charming.blog.queryvo.FirstPageBlog;
 import com.charming.blog.queryvo.TypeInfo;
 import com.charming.blog.queryvo.UserInfo;
@@ -16,4 +17,5 @@ public interface FirstPageService {
     int getBlogCount();
     UserInfo getUserInfo();
     List<TypeInfo> getTypeList();
+    DetailBlog getDetailBlog(long id);
 }
