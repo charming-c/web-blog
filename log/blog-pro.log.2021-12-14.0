@@ -1,0 +1,15 @@
+2021-12-14 00:12:27.887  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=1h45m51s142ms).
+2021-12-14 07:45:09.681  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=7h32m41s794ms).
+2021-12-14 08:07:54.632  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=21m44s940ms).
+2021-12-14 08:08:53.668  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Retrograde clock change detected (housekeeper delta=29s34ms), soft-evicting connections from pool.
+2021-12-14 09:50:54.173  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m57s505ms).
+2021-12-14 09:51:23.062  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Retrograde clock change detected (housekeeper delta=28s893ms), soft-evicting connections from pool.
+2021-12-14 11:37:00.055  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=1h45m36s994ms).
+2021-12-14 14:20:01.051  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=20m30s325ms).
+2021-12-14 14:40:31.275  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=20m30s224ms).
+2021-12-14 15:01:01.405  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=20m30s130ms).
+2021-12-14 15:17:27.552  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=16m26s147ms).
+2021-12-14 15:54:25.705  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Retrograde clock change detected (housekeeper delta=28s65ms), soft-evicting connections from pool.
+2021-12-14 16:12:46.309  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=18m20s607ms).
+2021-12-14 18:01:17.113  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=7m58s826ms).
+2021-12-14 21:27:20.436  WARN 51130 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=3h26m3s152ms).
