@@ -11,7 +11,33 @@
 
 </head>
     <body class="bkg">
-        <h1 th:text="${blog.title}">博客详情页</h1>
+        <div class="content">
+            <div class="title" th:text="${blog.title}">博客详情页</div>
+
+            <div class="tag">
+                <img src="https://tva1.sinaimg.cn/large/008i3skNly1gx90ae8eymj305k05kq2u.jpg"></img>
+                <div class="author" th:text="${blog.nickname}">
+                    charming
+                </div>
+                <img src="https://tva1.sinaimg.cn/large/008i3skNly1gx904psvbvj305k05kt8m.jpg"></img>
+                <div class="type" style="text-align: center;" th:text="${blog.typeName}">
+                    test
+                </div>
+                <div class="time">
+                    <img src="https://tva1.sinaimg.cn/large/008i3skNly1gx920k5n8aj305k05kt8l.jpg">
+                    <div class="updateTime" style="text-align: center"
+                        th:text="${blog.updateTime.toLocaleString()}">
+                    </div>
+                </div>
+                <div class="time">
+                    <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gxri1e3211j305k05kjr7.jpg">
+                    <div class="updateTime" style="text-align: center"
+                        th:text="${blog.createTime.toLocaleString()}">
+                    </div>
+                </div>
+            </div>
+        </div>
+       
     </body>
 
 </html>

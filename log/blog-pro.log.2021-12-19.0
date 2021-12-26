@@ -1,0 +1,13 @@
+2021-12-19 06:42:38.132  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h12m34s780ms).
+2021-12-19 08:16:03.104  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h32m24s466ms).
+2021-12-19 13:34:21.211  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h17m17s945ms).
+2021-12-19 14:08:24.224  INFO 5314 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-19 14:08:24.298  INFO 5314 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-19 15:25:50.024  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s995ms), soft-evicting connections from pool.
+2021-12-19 16:03:42.611  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m52s587ms).
+2021-12-19 16:19:12.604  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s866ms), soft-evicting connections from pool.
+2021-12-19 16:23:16.001  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m33s393ms).
+2021-12-19 16:52:12.639  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m26s492ms).
+2021-12-19 18:54:44.462  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s846ms), soft-evicting connections from pool.
+2021-12-19 20:56:17.452  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s838ms), soft-evicting connections from pool.
+2021-12-19 22:57:03.423  WARN 5314 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m45s625ms).
