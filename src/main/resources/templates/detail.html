@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>博客详情</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
-    <script src="https://unpkg.com/vue@next"></script>
     <link rel="stylesheet" type="text/css" href="../static/css/detail.css" th:href="@{/css/detail.css}">
 
 </head>
@@ -15,29 +14,39 @@
             <div class="title" th:text="${blog.title}">博客详情页</div>
 
             <div class="tag">
-                <img src="https://tva1.sinaimg.cn/large/008i3skNly1gx90ae8eymj305k05kq2u.jpg"></img>
+                <img id="img" src="https://tva1.sinaimg.cn/large/008i3skNly1gx90ae8eymj305k05kq2u.jpg"></img>
                 <div class="author" th:text="${blog.nickname}">
                     charming
                 </div>
-                <img src="https://tva1.sinaimg.cn/large/008i3skNly1gx904psvbvj305k05kt8m.jpg"></img>
+                <img id="img" src="https://tva1.sinaimg.cn/large/008i3skNly1gx904psvbvj305k05kt8m.jpg"></img>
                 <div class="type" style="text-align: center;" th:text="${blog.typeName}">
                     test
                 </div>
                 <div class="time">
-                    <img src="https://tva1.sinaimg.cn/large/008i3skNly1gx920k5n8aj305k05kt8l.jpg">
+                    <img id="img" src="https://tva1.sinaimg.cn/large/008i3skNly1gx920k5n8aj305k05kt8l.jpg">
                     <div class="updateTime" style="text-align: center"
                         th:text="${blog.updateTime.toLocaleString()}">
                     </div>
                 </div>
                 <div class="time">
-                    <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gxri1e3211j305k05kjr7.jpg">
+                    <img id="img" src="https://tva1.sinaimg.cn/large/008i3skNgy1gxri1e3211j305k05kjr7.jpg">
                     <div class="updateTime" style="text-align: center"
                         th:text="${blog.createTime.toLocaleString()}">
                     </div>
                 </div>
             </div>
+
+            <div class="blogContent" id="content">
+                lalalala
+            </div>
         </div>
        
     </body>
+
+    <script type="text/javascript" th:inline="javascript">
+         var content = [[${content}]];
+        document.getElementById("content").innerHTML = content;
+    </script>
+    
 
 </html>

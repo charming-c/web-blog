@@ -1,0 +1,33 @@
+.bkg{
+    background-color:azure;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    width: 100%;
+    flex-direction: row;
+    flex: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    overflow: auto;
+}
+
+form.ui.form{
+    margin: 5%;
+}
+
+form.ui.button{
+    margin: auto;
+}
+
+
+
+.ui.form textarea {
+    max-height: max-content;
+}

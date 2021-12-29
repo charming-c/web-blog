@@ -6,6 +6,7 @@ import com.charming.blog.queryvo.FirstPageBlog;
 import com.charming.blog.queryvo.TypeInfo;
 import com.charming.blog.queryvo.UserInfo;
 import com.charming.blog.service.FirstPageService;
+import com.charming.blog.utils.MarkdownUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -60,7 +61,10 @@ public class IndexController {
     @GetMapping("detail/{id}")
     public String detailBlog(@PathVariable long id, Model model){
         DetailBlog detailBlog = firstPageService.getDetailBlog(id);
+        String content = detailBlog.getContent();
+        detailBlog.setContent(MarkdownUtils.markdownToHtmlExtensions(content));
         model.addAttribute("blog", detailBlog);
+        model.addAttribute("content",detailBlog.getContent());
         return "detail";
     }
 }

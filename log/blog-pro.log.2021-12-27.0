@@ -1,0 +1,490 @@
+2021-12-27 00:16:41.493  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m30s213ms).
+2021-12-27 00:32:12.496  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m31s3ms).
+2021-12-27 00:48:29.832  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m47s335ms).
+2021-12-27 01:04:31.553  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m31s710ms).
+2021-12-27 01:20:19.002  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m47s449ms).
+2021-12-27 02:21:48.450  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28s339ms).
+2021-12-27 03:23:47.332  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28s860ms).
+2021-12-27 04:11:21.585  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m34s244ms).
+2021-12-27 04:28:45.005  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m53s399ms).
+2021-12-27 05:30:13.813  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28s799ms).
+2021-12-27 06:31:13.002  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29s189ms).
+2021-12-27 07:32:41.618  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28s605ms).
+2021-12-27 08:33:39.939  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28s314ms).
+2021-12-27 09:34:39.003  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29s60ms).
+2021-12-27 09:59:56.510  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m17s496ms).
+2021-12-27 10:15:20.244  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m23s734ms).
+2021-12-27 11:38:40.316  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m47s388ms).
+2021-12-27 16:01:27.406  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h22m47s89ms).
+2021-12-27 16:02:26.665  WARN 49006 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s259ms), soft-evicting connections from pool.
+2021-12-27 16:59:33.822  INFO 49006 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 16:59:33.824  INFO 49006 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 17:04:49.513  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 49006 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-27 17:04:49.513  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-27 17:04:50.530  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 1.196 seconds (JVM running for 23226.609)
+2021-12-27 17:04:53.061  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 49006 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-27 17:04:53.061  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-27 17:04:54.117  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 1.128 seconds (JVM running for 23230.196)
+2021-12-27 17:10:40.588  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 49006 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-27 17:10:40.588  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-27 17:10:41.321  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 0.9 seconds (JVM running for 23577.407)
+2021-12-27 17:10:41.416  INFO 49006 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:10:41.430 ERROR 49006 --- [http-nio-8080-exec-1] c.c.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/detail/62，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/parser/Parser
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1082)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/parser/Parser
+	at com.charming.blog.utils.MarkdownUtils.markdownToHtml(MarkdownUtils.java:24)
+	at com.charming.blog.controller.IndexController.detailBlog(IndexController.java:64)
+	at com.charming.blog.controller.IndexController$$FastClassBySpringCGLIB$$b199b1f2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.charming.blog.controller.IndexController$$EnhancerBySpringCGLIB$$65924936.detailBlog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.commonmark.parser.Parser
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 71 common frames omitted
+
+2021-12-27 17:10:41.431  WARN 49006 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/parser/Parser]
+2021-12-27 17:11:32.689  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 49006 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-27 17:11:32.689  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-27 17:11:33.477  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 0.821 seconds (JVM running for 23629.564)
+2021-12-27 17:11:33.792  INFO 49006 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:11:33.801 ERROR 49006 --- [http-nio-8080-exec-1] c.c.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/detail/62，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1082)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.charming.blog.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:38)
+	at com.charming.blog.controller.IndexController.detailBlog(IndexController.java:64)
+	at com.charming.blog.controller.IndexController$$FastClassBySpringCGLIB$$b199b1f2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.charming.blog.controller.IndexController$$EnhancerBySpringCGLIB$$65924936.detailBlog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.commonmark.ext.heading.anchor.HeadingAnchorExtension
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 71 common frames omitted
+
+2021-12-27 17:11:33.802  WARN 49006 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2021-12-27 17:12:50.834  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 49006 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-27 17:12:50.834  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-27 17:12:51.405  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 0.766 seconds (JVM running for 23707.493)
+2021-12-27 17:13:35.566  INFO 49006 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:13:35.575 ERROR 49006 --- [http-nio-8080-exec-1] c.c.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/detail/62，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1082)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.charming.blog.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:38)
+	at com.charming.blog.controller.IndexController.detailBlog(IndexController.java:64)
+	at com.charming.blog.controller.IndexController$$FastClassBySpringCGLIB$$b199b1f2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.charming.blog.controller.IndexController$$EnhancerBySpringCGLIB$$65924936.detailBlog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.commonmark.ext.heading.anchor.HeadingAnchorExtension
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 71 common frames omitted
+
+2021-12-27 17:13:35.576  WARN 49006 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2021-12-27 17:15:44.084  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 49006 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-27 17:15:44.084  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-27 17:15:44.630  INFO 49006 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 0.697 seconds (JVM running for 23880.765)
+2021-12-27 17:17:48.173  INFO 51829 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 51829 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-27 17:17:48.174  INFO 51829 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-27 17:17:51.335  INFO 51829 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 3.656 seconds (JVM running for 4.398)
+2021-12-27 17:17:51.888  INFO 51829 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:17:52.141  INFO 51829 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 17:18:17.952  INFO 51829 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:18:17.956  INFO 51829 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 17:19:16.195  INFO 51829 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:19:16.197  INFO 51829 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 17:30:53.819  INFO 51829 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:30:53.822  INFO 51829 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 17:31:26.111  INFO 51829 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:31:26.113  INFO 51829 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 17:33:55.666  INFO 51829 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 51829 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-27 17:33:55.666  INFO 51829 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-27 17:33:56.503  INFO 51829 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 1.011 seconds (JVM running for 969.599)
+2021-12-27 17:33:58.993  INFO 51829 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 51829 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-27 17:33:58.993  INFO 51829 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-27 17:33:59.789  INFO 51829 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 0.839 seconds (JVM running for 972.885)
+2021-12-27 17:34:00.062  INFO 51829 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-27 17:34:00.080  INFO 51829 --- [http-nio-8080-exec-1] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-27 17:34:01.646  INFO 51829 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:34:01.650  INFO 51829 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 17:34:35.395  INFO 51829 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:34:35.397  INFO 51829 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 17:35:07.083  INFO 51829 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 17:35:07.085  INFO 51829 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 17:42:23.092  WARN 51829 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m52s912ms).
+2021-12-27 18:08:54.102  WARN 51829 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=25m59s709ms).
+2021-12-27 18:18:36.881  WARN 51829 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m12s784ms).
+2021-12-27 19:58:33.717  INFO 51829 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 19:58:33.720  INFO 51829 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:01:49.610  INFO 51829 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:01:49.613  INFO 51829 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:04:51.897  INFO 51829 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:04:51.900  INFO 51829 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:08:08.771  INFO 51829 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:08:08.774  INFO 51829 --- [http-nio-8080-exec-5] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:09:25.887  INFO 51829 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:09:25.890  INFO 51829 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:09:32.652  INFO 51829 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:09:32.654  INFO 51829 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:10:09.406  INFO 51829 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:10:09.408  INFO 51829 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:11:40.603  INFO 51829 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:11:40.608  INFO 51829 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:12:42.979  INFO 51829 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:12:42.997  INFO 51829 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:13:29.264  INFO 51829 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:13:29.274  INFO 51829 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:14:39.201  INFO 51829 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:14:39.210  INFO 51829 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:14:39.729  INFO 51829 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:14:39.737  INFO 51829 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:14:57.490  INFO 51829 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-27 20:14:57.498  INFO 51829 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-27 20:15:01.412  INFO 51829 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:15:01.420  INFO 51829 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:15:03.895  INFO 51829 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/63', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[63, {}]}
+2021-12-27 20:15:03.897  INFO 51829 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:17:06.322  INFO 51829 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-27 20:17:06.329  INFO 51829 --- [http-nio-8080-exec-8] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-27 20:17:07.984  INFO 51829 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:17:07.990  INFO 51829 --- [http-nio-8080-exec-9] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:18:00.759  INFO 51829 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:18:00.765  INFO 51829 --- [http-nio-8080-exec-3] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:19:06.393  INFO 51829 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:19:06.399  INFO 51829 --- [http-nio-8080-exec-7] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:20:06.821  INFO 51829 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:20:06.827  INFO 51829 --- [http-nio-8080-exec-2] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 20:31:39.653  INFO 51829 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.loadPage', args=[{}, {}]}
+2021-12-27 20:31:39.661  INFO 51829 --- [http-nio-8080-exec-4] com.charming.blog.aspect.LogAspect       : Result : index
+2021-12-27 20:31:41.969  INFO 51829 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Request : {url='http://localhost:8080/detail/62', ip='0:0:0:0:0:0:0:1', classMethod='com.charming.blog.controller.IndexController.detailBlog', args=[62, {}]}
+2021-12-27 20:31:41.974  INFO 51829 --- [http-nio-8080-exec-6] com.charming.blog.aspect.LogAspect       : Result : detail
+2021-12-27 21:39:33.600 ERROR 51829 --- [http-nio-8080-exec-10] c.c.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/admin/login，Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:253)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:442)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-12-27 21:39:33.602  WARN 51829 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-27 21:47:27.918  INFO 53198 --- [restartedMain] com.charming.blog.BlogApplication        : Starting BlogApplication using Java 15.0.2 on charming-Mac.local with PID 53198 (/Users/charming/Documents/blog/target/classes started by charming in /Users/charming/Documents/blog)
+2021-12-27 21:47:27.919  INFO 53198 --- [restartedMain] com.charming.blog.BlogApplication        : The following profiles are active: pro
+2021-12-27 21:47:30.986  INFO 53198 --- [restartedMain] com.charming.blog.BlogApplication        : Started BlogApplication in 3.666 seconds (JVM running for 4.412)
+2021-12-27 21:48:38.122 ERROR 53198 --- [http-nio-8080-exec-6] c.c.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/admin/login，Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:253)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:442)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-12-27 21:48:38.128  WARN 53198 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-27 23:32:07.249  WARN 53198 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m34s711ms).
+2021-12-27 23:51:34.132  WARN 53198 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m56s877ms).
+2021-12-27 23:55:33.983  WARN 53198 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s832ms), soft-evicting connections from pool.

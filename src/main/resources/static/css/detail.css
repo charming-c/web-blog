@@ -53,7 +53,7 @@
   min-width: 50px;
 }
 
-img{
+#img{
     width: 30px;
     height: 30px;
     padding: 5px;
@@ -73,4 +73,16 @@ img{
     min-width: 50px;
     max-lines: 1;
     display: block；
+}
+
+.blogContent{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-top: 5px;
 }

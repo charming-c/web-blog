@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.charming.blog.dao.BlogDao">
+
+    <insert id="submit" parameterType="com.charming.blog.queryvo.BlogInfo">
+        insert into t_blog (content, create_time, description, recommend, title, update_time, type_id, user_id)
+        VALUES (#{content},#{createTime},#{description},1,#{title},#{updateTime},58,2);
+
+    </insert></mapper>
